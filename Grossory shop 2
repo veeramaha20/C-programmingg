@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int a4sheet, pen, pencil, eraser;
+
+    // Reading costs from user input
+    scanf("%d", &a4sheet);
+    scanf("%d", &pen);
+    scanf("%d", &pencil);
+    scanf("%d", &eraser);
+
+    // Printing item details
+    printf("Items Details\n");
+    printf("A4sheet:%d\n", a4sheet);
+    printf("Pen:%d\n", pen);
+    printf("Pencil:%d\n", pencil);
+    printf("Eraser:%d\n", eraser);
+
+    return 0;
+}
