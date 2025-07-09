@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+
+    int x1, y1, x2, y2;
+
+    float midX, midY;
+
+    // Read input values
+
+    scanf("%d", &x1);
+
+    scanf("%d", &y1);
+
+    scanf("%d", &x2);
+
+    scanf("%d", &y2);
+
+    // Calculate midpoint
+
+    midX = (x1 + x2) / 2.0;
+
+    midY = (y1 + y2) / 2.0;
+
+    // Output the result
+
+    printf("Binoy's house is located at (%.1f,%.1f)\n", midX, midY);
+
+    return 0;
+
+}
