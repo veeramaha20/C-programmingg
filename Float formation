@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+    float num;
+
+    
+
+    // Input from the user
+
+    scanf("%f", &num);
+
+    
+
+    // Printing with different formats
+
+    printf("%.6f\n", num);  // 6 decimal places
+
+    printf("%.4f\n", num);  // 4 decimal places
+
+    printf("%.2f\n", num);  // 2 decimal places
+
+    printf("%.0f\n", num);  // Rounded to nearest integer (no decimals)
+
+    return 0;
+
+}
